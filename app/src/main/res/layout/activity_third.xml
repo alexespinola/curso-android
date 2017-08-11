@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ar.gob.sofse.alex.curso_android.ThirdActivity">
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="44dp"
+        android:layout_marginTop="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp" />
+
+    <ImageButton
+        android:id="@+id/phoneButton"
+        android:layout_width="54dp"
+        android:layout_height="55dp"
+        app:srcCompat="@android:drawable/stat_sys_phone_call"
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="36dp"
+        android:layout_alignBottom="@+id/phone"
+        android:layout_toEndOf="@+id/phone"
+        android:layout_marginStart="29dp" />
+
+    <EditText
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="129dp"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/phone"
+        android:layout_alignStart="@+id/phone" />
+
+    <ImageButton
+        android:id="@+id/webButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/web"
+        android:layout_alignEnd="@+id/phoneButton"
+        app:srcCompat="?android:attr/actionModeWebSearchDrawable"
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="367dp"
+        android:layout_height="55dp"
+        app:srcCompat="@android:drawable/ic_media_play"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="453dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
