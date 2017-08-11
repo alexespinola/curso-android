@@ -18,9 +18,11 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
+        // Activar flecha de regresar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         textView =  (TextView) findViewById(R.id.textViewMain);
         btnNext = (Button) findViewById(R.id.buttonGoSharing);
-
 
 
         Bundle bundle = getIntent().getExtras();

@@ -52,14 +52,14 @@
         tools:layout_editor_absoluteX="296dp"
         tools:layout_editor_absoluteY="119dp" />
 
-    <ImageButton
-        android:id="@+id/play"
-        android:layout_width="367dp"
-        android:layout_height="55dp"
-        app:srcCompat="@android:drawable/ic_media_play"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="453dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/camara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/webButton"
+        android:layout_alignStart="@+id/web"
+        android:layout_below="@+id/web"
+        android:layout_marginTop="49dp"
+        android:text="Camara" />
 
 </RelativeLayout>
